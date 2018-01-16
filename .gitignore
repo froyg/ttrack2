@@ -8,3 +8,4 @@ develop-eggs/
 ttrack.egg-info/
 var/
 .installed.cfg
+.cache
