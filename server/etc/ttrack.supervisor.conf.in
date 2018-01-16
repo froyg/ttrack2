@@ -1,0 +1,9 @@
+[program:ttrack]
+autostart=true
+autorestart=true
+priority=20
+user=ttrack
+command=${buildout:bin-directory}/pserve ${production_ini:output}
+stdout_logfile=${buildout:log-dir}/ttrack.supervisor-stdout.log
+stderr_logfile=${buildout:log-dir}/ttrack.supervisor-stderr.log
+

@@ -1,2 +1,10 @@
 *~
 *.pyc
+__pycache__
+server/bin
+server/parts
+server/eggs
+server/develop-eggs
+server/ttrack.egg-info
+server/var
+server/.installed.cfg
